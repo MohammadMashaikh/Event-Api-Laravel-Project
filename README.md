@@ -20,7 +20,7 @@ This project is a **RESTful API** built with Laravel for managing events and att
 1️⃣ **Clone the repository** 📂:
    ```sh
    git clone https://github.com/MohammadMashaikh/Event-Api-Laravel-Project.git
-   cd your-repository
+   cd Event-Api-Laravel-Project
    ```
 
 2️⃣ **Install dependencies** 📦:
