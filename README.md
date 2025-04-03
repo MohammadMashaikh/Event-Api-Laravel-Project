@@ -19,7 +19,7 @@ This project is a **RESTful API** built with Laravel for managing events and att
 
 1️⃣ **Clone the repository** 📂:
    ```sh
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/MohammadMashaikh/Event-Api-Laravel-Project.git
    cd your-repository
    ```
 
@@ -83,11 +83,11 @@ This project is a **RESTful API** built with Laravel for managing events and att
 📌 **Delete an event** → `DELETE /api/events/{id}`  
 
 ### 🏷️ Attendees
-🎟️ **Get all attendees** → `GET /api/attendees`  
-🎟️ **Register an attendee** → `POST /api/attendees`  
-🎟️ **Update attendee details** → `PUT /api/attendees/{id}`  
-🎟️ **Show attendee details** → `GET /api/attendees/{id}`  
-🎟️ **Delete an attendee** → `DELETE /api/attendees/{id}`  
+🎟️ **Get all attendees** → `GET /api/events/{event}/attendees`  
+🎟️ **Register an attendee** → `POST /api/events/{event}/attendees`  
+🎟️ **Update attendee details** → `PUT /api/events/{event}/attendees/{attendee}`  
+🎟️ **Show attendee details** → `GET /api/events/{event}/attendees/{attendee}`  
+🎟️ **Delete an attendee** → `DELETE /api/events/{event}/attendees/{attendee}`  
 
 ---
 
